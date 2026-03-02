@@ -346,6 +346,13 @@ STEPS ↓
 
 */
 
+.steps__img {
+    z-index: 2;
+}
+
+img {
+    width: 100%;
+}
 
 #steps .row {
     display: flex;
@@ -353,6 +360,13 @@ STEPS ↓
     align-items: center;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
 
 /* 
 
