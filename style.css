@@ -353,13 +353,31 @@ STEPS ↓
 img {
     width: 100%;
 }
-
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.step__title {
+    font-weight: 600;
+    font-size: 20px;
+    color: #243e63;
+    line-height: 1;
+}
 #steps .row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+.steps__description {
+    padding: 32px 0;
+    padding-left: 64px;
+}
+.step__number {
+    color: #cbd5e0;
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1;
+}
 * {
     margin: 0;
     padding: 0;
