@@ -448,6 +448,9 @@ section {
     justify-content: space-between;
     align-items: center;
 }
+.values__description, .values__img {
+    width: 50%;
+}
 
 
 /*
@@ -455,7 +458,33 @@ section {
 PRICING ↓
 
 */
-
+.section__title {
+    font-size: 48px;
+    font-weight: 900;
+    color: rgb(36, 62, 99);
+    line-height: 1.5;
+    margin: 16px 0;
+    letter-spacing: 0.025em;
+}
+#pricing .section__para {
+    max-width: 576px;
+    text-align: center;
+}
+section {
+    padding: 0 32px;
+}
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.plans {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
 
 #pricing .row {
     display: flex;
