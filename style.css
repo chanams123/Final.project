@@ -586,8 +586,7 @@ section {
 #testimonials .row {
     display: flex;
 }
-element.style {
-}
+
 .testimonial__rating {
     color: rgba(246, 173, 85);
     margin-right: 2px;
@@ -599,9 +598,6 @@ element.style {
     margin-top: 1rem;
     font-size: 1.25rem;
     font-weight: 700;
-}
-
-element.style {
 }
 .testimonial__para {
     margin-top: 1rem;
@@ -655,6 +651,32 @@ section {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
+}
+.start__button:nth-child(2) {
+    border: 1px solid rgb(160, 174, 192);
+    transition: all 300ms ease;
+}
+.start__button {
+    padding: 20px 40px;
+    border-radius: 500px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #f7fafc;
+    line-height: 1.5;
+    letter-spacing: 0.025;
+    margin: 1px;
+    z-index: 2;
+}
+.btn {
+    background-color: #6415ff;
+    padding: 12px 32px;
+    border: none;
+    border-radius: 500px;
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    transition: all 300ms ease;
+    cursor: pointer;
 }
 .start__button {
     padding: 20px 40px;
@@ -728,6 +750,39 @@ FOOTER ↓
     color: #f7fafc;
     line-height: 1.5;
 }
+
+element.style {
+}
+.footer__column--link:nth-child(2) {
+    margin-top: 24px;
+}
+.footer__column--link {
+    color: #f7fafc;
+    font-size: 14px;
+    margin-top: 12px;
+    line-height: 1.5;
+    font-weight: 500;
+    position: relative;
+    cursor: pointer;
+}
+.footer__divider {
+    width: 100%;
+    height: 2px;
+    margin: 64px 0;
+    background: rgb(116, 44, 255);
+}
+a {
+    display: inline;
+    text-decoration: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #243e63;
+}
 footer {
     padding: 96px 32px;
     background-color: rgb(100, 21, 255);
@@ -735,7 +790,18 @@ footer {
     position: relative;
     overflow: hidden;
 }
-
+.footer__copyright {
+    color: #cbd5e0;
+    font-weight: 500;
+}
+.footer__copyright {
+    color: #cbd5e0;
+    font-weight: 500;
+}
+.footer__logo--img {
+    height: 32px;
+    width: 32px;
+}
 
 /* 
 
