@@ -726,7 +726,10 @@ section {
     max-width: 1280px;
     margin: 0 auto;
 }
-
+.testimonials__img--wrapper,
+.testimonials__description {
+  width: 50%;
+}
 * {
     margin: 0;
     padding: 0;
