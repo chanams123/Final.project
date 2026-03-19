@@ -554,6 +554,7 @@ VALUES ↓
     letter-spacing: 0.025em;
 }
 
+
 section {
     padding: 0 32px;
 }
@@ -573,6 +574,22 @@ section {
 .value:nth-of-type(1) {
     margin-top: 32px;
     margin-right: 32px;
+}
+.value:nth-child(1) .value__img--wrapper {
+    background-color: #9ae6b4;
+}
+
+.value__img {
+    width: 20px;
+    height: 20px;
+}
+.value__img--wrapper {
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
 }
 @media (max-width: 1024px) {
     .values__list {
