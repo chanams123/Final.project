@@ -466,6 +466,9 @@ STEPS ↓
 
 */
 
+section {
+    padding: 0 32px;
+}
 .row {
     width: 100%;
     max-width: 1280px;
@@ -497,11 +500,22 @@ img {
     padding: 32px 0;
     padding-left: 64px;
 }
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
+}
 .step__number {
     color: #cbd5e0;
     font-size: 36px;
     font-weight: 600;
     line-height: 1;
+}
+.step__description {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
 }
 * {
     margin: 0;
@@ -556,7 +570,18 @@ section {
     line-height: 1.625;
     color: #718096;
 }
+.value:nth-of-type(1) {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+@media (max-width: 1024px) {
+    .values__list {
+        max-width: 20rem;
+        flex-direction: column;
+    }
+}
 
+.
 .value__title {
     display: flex;
     align-items: center;
@@ -1027,6 +1052,14 @@ footer {
     color: #cbd5e0;
     font-weight: 500;
 }
+
+.footer__logo--text {
+    font-size: 20px;
+    color: #f7fafc;
+    font-weight: 900;
+    margin-left: 8px;
+    letter-spacing: 0.05em;
+}
 .footer__socials {
     display: flex;
     align-items: center;
@@ -1046,6 +1079,10 @@ footer {
 .footer__logo--img {
     height: 32px;
     width: 32px;
+}
+.footer__copyright {
+    color: #cbd5e0;
+    font-weight: 500;
 }
 
 .footer__social--link svg {
