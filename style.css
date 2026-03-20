@@ -47,7 +47,9 @@ main {
 NAVBAR ↓
 
 */
-
+.btn__menu {
+  display: none;
+}
 
 nav {
     display: flex;
@@ -611,7 +613,7 @@ section {
     }
 }
 
-.
+
 .value__title {
     display: flex;
     align-items: center;
@@ -1073,8 +1075,6 @@ FOOTER ↓
     line-height: 1.5;
 }
 
-element.style {
-}
 .footer__column--link:nth-child(2) {
     margin-top: 24px;
 }
@@ -1170,6 +1170,15 @@ MOBILE RESPONSIVENESS ↓
     header .row {
         align-items: flex-end;
     }
+}
+@media (max-width: 1024px) {
+  .nav__links {
+    display: none;
+  }
+
+  .btn__menu {
+    display: block;
+  }
 }
 
 @media (max-width: 1024px) {
