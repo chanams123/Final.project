@@ -453,13 +453,6 @@ img {
     display: block;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    color: #243e63;
-}
 
 .btn {
     background-color: #6415ff;
@@ -530,13 +523,7 @@ img {
     margin-left: 24px;
     max-width: 320px;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    color: #243e63;
-}
+
 
 /* 
 
@@ -849,13 +836,6 @@ section {
 .testimonials__description {
   width: 50%;
 }
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    color: #243e63;
-}
 .testimonials__description {
     display: flex;
     flex-direction: column;
@@ -948,13 +928,6 @@ section {
 button {
     cursor: pointer;
     border: none;
-}
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    color: #243e63;
 }
 /* 
 
@@ -1145,19 +1118,19 @@ a {
     text-decoration: none;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Inter", sans-serif;
-    color: #243e63;
-}
+
 footer {
     padding: 96px 32px;
     background-color: rgb(100, 21, 255);
     margin-bottom: -32px;
     position: relative;
     overflow: hidden;
+}
+
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .footer__copyright {
     color: #cbd5e0;
@@ -1170,6 +1143,10 @@ footer {
     font-weight: 900;
     margin-left: 8px;
     letter-spacing: 0.05em;
+}
+.footer__logo {
+    display: flex;
+    align-items: center;
 }
 .footer__socials {
     display: flex;
