@@ -1319,6 +1319,11 @@ MOBILE RESPONSIVENESS ↓
         padding: 80px 0;
     }
 }
+@media (max-width: 768px) {
+    .footer__column {
+        width: calc(100% / 3);
+    }
+}
 
 @media (max-width: 640px) {
     .start__title {
@@ -1330,6 +1335,21 @@ MOBILE RESPONSIVENESS ↓
         text-align: center;
         width: 100%;
         max-width: 512px;
+    }
+}
+
+@media (max-width: 640px) {
+    .footer__columns {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 640px) {
+    .footer__column {
+        width: auto;
+        padding: 0 16px;
+        text-align: center;
+        align-items: center;
     }
 }
 
